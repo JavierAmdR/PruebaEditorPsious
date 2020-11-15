@@ -28,7 +28,7 @@ public class EditorPsious : EditorWindow
                     currentFolder = lines[i] + "/";
                     if (!Directory.Exists(path)) 
                     {
-                        Debug.LogWarning("Error " + path + " no existe");
+                        Debug.LogWarning("Error " + currentFolder + " no existe");
                     }
                 }
                 else 

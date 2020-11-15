@@ -1,0 +1,19 @@
+{
+  "name": "com.javieramador.editorpsious",
+  "version": "1.0.1",
+  "displayName": "Editor Psious",
+  "description": "Herramienta creada para una prueba",
+  "unity": "2019.4",
+  "unityRelease": "4f1",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Javier Amador",
+    "email": "",
+    "url": ""
+  },
+  "hideInEditor": false
+}
