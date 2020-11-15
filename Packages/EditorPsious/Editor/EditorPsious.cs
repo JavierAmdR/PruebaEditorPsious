@@ -17,7 +17,8 @@ public class EditorPsious : EditorWindow
     {
         if (GUILayout.Button("CheckFiles")) 
         {
-            string filePath = "Assets/Resources/DirectoriesPsious.txt";
+            
+            string filePath = "Packages/com.javieramador.editorpsious/Resources/DirectoriesPsious.txt";
             string[] lines = System.IO.File.ReadAllLines(filePath);
 
             for (int i = 0; i < lines.Length; i++) 
